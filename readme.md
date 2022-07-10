@@ -11,9 +11,9 @@ The odds of succeeding by choosing random boxes is ½ per prisoner.
 
 The probability of all prisoners finding their number using this method is ½<sup>number of prisoners</sup>
 
-P(success) = ½<sup>100</sup>
+P(success) ≈ ½<sup>100</sup>
 
-P(success) = 0.0000000000000000000000000008%
+P(success) ≈ 0.0000000000000000000000000008%
 
 ## 🧩 [Solution](https://www.youtube.com/watch?v=iSNsgj1OCLA)
 
@@ -28,9 +28,9 @@ To describe the strategy, not only the prisoners, but also the boxes, are number
 
 By starting with his own number, the prisoner guarantees he is on a sequence of drawers containing his number. The only question is whether this sequence is longer than fifty drawers.
 
-P(success) = log(2) 
+P(success) ≈ log(2) 
 
-P(success) = 0.30102999566
+P(success) ≈ 0.30685
 
 ## ⚙️ Installation
 * Clone the repo `git clone https://github.com/Otterpohl/100PrisonersProblem`
