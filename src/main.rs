@@ -124,7 +124,7 @@ fn overwrite_stdout(message: String) {
 }
 
 fn main() {
-    // the success rate after we have tried a few times, hopefully close to 30.5%
+    // the success rate after we have tried a few times, hopefully close to 30.7%
     let mut success_count: u32 = 0;
     let mut total_time_taken = 0;
 
