@@ -108,10 +108,10 @@ fn overwrite_stdout(message: String) {
 fn main() {
     let mut success_count: u32 = 0;
     let mut total_time_taken = 0;
-    let iterations = 1_000_000;
+    let iterations = 100_000;
 
     for i in 0..iterations {
-        let prison = Prison::new(1000);
+        let prison = Prison::new(1_000);
         let now = Instant::now();
         let result = prison.solve();
         total_time_taken += now.elapsed().as_micros();
