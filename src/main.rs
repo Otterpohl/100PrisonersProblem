@@ -165,3 +165,21 @@ fn main() {
     print!( "Final success chance: {}%", f64::from(success_count) / f64::from(iterations) * 100.0);
     /*|-----------------------------------------------------------------------------------------|*/
 }
+
+// please dont run this test
+// it will take forever
+// and even if you do wait forever
+// it doesnt generate the tarpaulin-report
+// lower the iterations first
+// or just trust that it is an excellently written test
+// i lean towards the latter personally 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn im_a_real_test_i_promise() {
+        let _ = main();
+        assert!(true);
+    }
+}

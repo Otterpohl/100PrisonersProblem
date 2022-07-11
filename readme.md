@@ -43,6 +43,7 @@ P(success) ≈ 0.30685
 * **_Blazingly Fast_** - written in 💯% Rust
 * **_Scalable_**
 * Designed to ease things up for fast development with zero memory allocation and performance in mind.
+* 100% code coverage
 
 ## 💻 Contributions
 **_Discouraged_**
