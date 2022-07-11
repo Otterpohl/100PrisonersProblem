@@ -101,8 +101,8 @@ impl Prison {
         // if the count of successful slip finds matches the prison population then the prisoners
         // managed to escape using a method only people with an IQ of 140+ manage to find
         results.iter().filter(|x| **x).count() == self.prisoners.len()
-        //                                ^^^
-        //                                 |
+        //                        ^^^
+        //                         |
         // how about that double deref though, damn
     }
 }
