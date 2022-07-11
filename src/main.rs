@@ -37,7 +37,7 @@ impl Room {
     }
 }
 
-// prisoners are just numbers?                      unsigned numbers actually
+// prisoners are just a number?                      an unsigned number actually
 struct Prisoner {
     id: u32,
 }
